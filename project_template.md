@@ -1,186 +1,149 @@
-# GenData Capstone Project Proposal Template
+# 📊 GenData Capstone Project Proposal
 
-### Project Title: Impact of AI on Digital Media
+## 🎯 Project Title  
+**Public Response & Protest Patterns on Kenya’s Finance Bill (2024/2025)**
 
-### Project Summary
-This project leverages a dataset exploring the rise of AI-generated content across industries such as journalism, social media, entertainment, and marketing. Using Excel, SQL, and Tableau, the project aims to uncover insights about public sentiment, engagement metrics, economic impacts, and evolving regulatory trends.
 
-The findings will be useful for data analysts, content strategists, and policy makers interested in tracking the growth and consequences of AI-generated media. Through structured analysis and visualization, the project will highlight emerging patterns and potential areas for further research.
 
-## Problem Statement
+## 📝 Project Summary  
+This project analyzes public reactions to Kenya’s 2024/2025 Finance Bill, focusing on protest events, social media sentiment, and economic grievances. Using **Excel, SQL, and Python**, the project will uncover protest hotspots, trending concerns, demographic indicators, and the role of social discourse.
 
+The goal is to inform civil society, journalists, and policymakers by presenting data-driven insights on how fiscal policy impacts citizen behavior and triggers nationwide mobilization.
 
-- How has public sentiment evolved regarding AI-generated content?
 
-- What engagement trends are associated with AI media in various industries?
 
-- What economic and regulatory shifts have occurred alongside AI content adoption?
+## ❓ Problem Statement  
 
+- What were the major protest locations during the Finance Bill demonstrations?  
+- How did sentiment on social media evolve over time?  
+- What economic or policy concerns were raised most frequently?  
+- Can we identify patterns in protest demographics, timing, or intensity?  
+- How did protest discussions differ across regions?
 
-## Technical Details
 
-### Excel Components
-   - Core Concepts to Be Used
 
-Data Cleaning: Removing duplicates, handling missing values
+## 🔧 Technical Details
 
-Data Transformation: Creating calculated columns and conditional formatting
+### 📗 Excel Components
+**Concepts:**  
+- Data Cleaning: Handling missing values, inconsistencies, duplicates  
+- Transformation: Date grouping, protest categorization, calculated fields  
+- Summarization: Pivot Tables, VLOOKUP for reference data  
 
-Pivot Tables & Charts: For summary statistics and trend visualization
+**Visuals:**  
+- Line graphs of protest frequency over time  
+- Bar charts comparing counties  
+- Pie charts for protest reasons  
 
 
-   - Key Excel Visualizations
 
-Line graphs for time-based sentiment analysis
+### 🐬 SQL Components
+**Tool:** MySQL / SQLite  
 
-Bar charts for industry-specific engagement comparisons
+**Key Concepts:**  
+- `SELECT`, `JOIN`, `GROUP BY`, `ORDER BY`  
+- Aggregations: `COUNT()`, `SUM()`, `AVG()`  
+- Subqueries for advanced filtering  
+- Views for cleaned and joined datasets  
 
-### SQL Components
 
-   - Database Tool: MySQL
-   - Key SQL Concepts:
 
-Data extraction using SELECT, JOIN, WHERE, GROUP BY, ORDER BY Aggregation: AVG(), COUNT(), SUM()
-Creating views for cleaned datasets Using subqueries to identify trends or top-performing content types
+### 🐍 Python Components
+**Libraries:** `pandas`, `matplotlib`, `seaborn` 
 
-### Tableau Components
-   - Key Features:
+**Tasks:**  
+- Data ingestion and merging  
+- Sentiment analysis on tweets/posts  
+- Time-series and categorical visualizations  
+- Outlier detection, rolling trends  
+- Word cloud generation  
 
-Dashboards summarizing engagement trends by industry
 
-Sentiment heat maps over time
+## 📄 Report Writing
 
-Filters for users to select industries, timeframes, or regions
+- Executive Summary with key findings  
+- Methodology (tools, sources, assumptions)  
+- Explanation of datasets  
+- Visualizations with interpretation  
+- Conclusions and recommendations  
 
-   - Visuals:
 
-Interactive line graphs
 
-Tree maps for content distribution
+## 🧱 Program Structure
 
-Sentiment-over-time timeline
+### 🔹 Core Features
 
-### Report Writing
-Executive summary with key insights
+1. **Data Collection**  
+   - Social media hashtags  
+   - News reports and government releases  
+   - Manual protest logs  
 
-Methodology (tools, techniques, assumptions)
+2. **Preprocessing**  
+   - Cleaning data in Excel  
+   - Structuring in SQL  
+   - Merging and refining in Python  
 
-Data explanation and source information
+3. **Analysis**  
+   - SQL trend queries  
+   - Excel summaries  
+   - Python graphs + sentiment analysis  
 
-Visualizations and interpretation
+4. **Output**  
+   - Final PDF report  
+   - GitHub repository with code & data  
+   - Jupyter notebook for reproducibility  
 
-Conclusion and recommendations
 
 
-## Program Structure
+## 📅 Project Timeline
 
+| Phase     | Tasks                                                 | Duration  |
+|-----------|-------------------------------------------------------|-----------|
+| Phase 1   | Define scope, collect protest and sentiment data      | 2 days    |
+| Phase 2   | Clean and prepare data in Excel/SQL                   | 2 days    |
+| Phase 3   | Analyze using SQL queries and Python scripts          | 2–3 days  |
+| Phase 4   | Build graphs and perform sentiment analysis in Python | 2 days    |
+| Phase 5   | Write final report and share findings                 | 2 days    |
 
-### Core Features
-1. Data Collection & Input Handling
 
-   - Import from CSV or database
 
-   - Organize into Excel and SQL tables
+## 🧩 Design Principles
 
-2. Preprocessing
+- Modular flow: Excel → SQL → Python  
+- Consistent naming for files, tables, and graphs  
+- Reusable code and views for scalability  
+- Clear documentation for each phase  
 
-   - Clean and normalize datasets in Excel/SQL
 
-   - Handle nulls, outliers, duplicates
 
-3. Analysis Phase
+## ⚠️ Potential Challenges
 
-   - SQL queries for trend analysis
+- Inconsistent or sparse protest data  
+- Sentiment subjectivity or sarcasm in posts  
+- Integration friction between tools  
+- Biases in media coverage  
 
-   - Excel summaries and calculated metrics
 
-4. Visualization
 
-   - Tableau dashboards for storytelling
+## 🚀 Future Improvements
 
-   - Charts in Excel for quick overviews
+- Live scraping via APIs (Twitter, news)  
+- Sentiment model refinement using machine learning  
+- Integration of economic indicators like fuel price, inflation  
+- Flask web app or dashboard for sharing visual insights  
 
-5. Output
 
-   - PDF report
-   - Interactive Tableau dashboard
-   - Github Repository
-   - Medium article of technical steps
 
-## Project Timeline
-### 📅 Project Timeline
+## ❓ Key Project Questions
 
-| Phase     | Tasks                                                        | Duration     |
-|-----------|--------------------------------------------------------------|--------------|
-| Phase 1   | Define scope, collect data, set up project environment       | 1–2 days     |
-| Phase 2   | Data cleaning and preprocessing in Excel/SQL                 | 2 days       |
-| Phase 3   | Exploratory analysis and SQL query development               | 2 days       |
-| Phase 4   | Build Tableau dashboard and refine visualizations            | 2 days       |
-| Phase 5   | Final report writing, testing, and presentation              | 1–2 days     |
-
-## Program Design
-Modular design separating:
-
-   - Data input & preprocessing
-
-   - Analysis logic (SQL)
-
-   - Visualization layer (Tableau)
-
-- Use clear naming conventions for datasets, queries, and dashboard elements
-
-- Ensure scalability by creating reusable SQL views and Excel templates
-
-
-## Potential Challenges
-Data Quality: Incomplete or misaligned data from various sources
-
-Integration Issues: Ensuring Excel, SQL, and Tableau work seamlessly
-
-Subjectivity in Sentiment Analysis: May need qualitative validation
-
-Scalability: Handling large-scale datasets efficiently
-
-## Future Improvements
-- Future Improvements
-Integrate real-time data feeds from social platforms or APIs
-
-Add a sentiment analysis model to classify new AI-generated content
-
-Include geographic visualizations to see regional variations
-
-Develop a mobile-friendly version of the dashboard using Tableau Public
-
-## Project Questions
-How has the volume of AI-generated content evolved over the past 5 years?
-
-Which industries are using AI-generated content the most (e.g., journalism, marketing, entertainment)?
-
-What is the growth rate of AI-generated media content adoption per sector?
-
-What is the general sentiment (positive, neutral, negative) towards AI-generated content on platforms like Twitter, Reddit, etc.?
-
-How does sentiment vary across different industries?
-
-Do AI-generated articles/videos/posts get more or less engagement (likes, shares, comments) than human-generated ones?
-
-Which platforms have the highest interaction rates with AI-generated content?
-
-What are the revenue trends associated with AI-generated content?
-
-How have content creation costs changed with AI adoption?
-
-Is there a correlation between AI content use and advertising revenue growth?
-
-Which countries are leading in AI-generated content creation?
-
-What demographics (age, gender, region) interact the most with AI-generated content?
-
-What are the key regulatory concerns or reported incidents related to AI-generated content (e.g., misinformation, deepfakes)?
-
-How frequently are disclaimers used on AI-generated content across industries?
-
-Can we forecast the growth of AI-generated content in the next 3 years?
-
-Which industry is most likely to be disrupted next by AI-generated media?
+1. What counties recorded the most protests?  
+2. Which keywords and hashtags led online discussions?  
+3. How did online sentiment shift around key parliamentary events?  
+4. Are specific grievances more common in urban vs rural areas?  
+5. Can we predict future protests from past data?  
+6. Do protests follow any time patterns (weekends, paydays)?  
+7. What economic indicators align with protest locations?  
+8. Who are the most mentioned MPs or officials in the discourse?  
+9. Are protests mostly youth-driven?  
+10. How does social outrage convert to on-ground protest activity?
 
