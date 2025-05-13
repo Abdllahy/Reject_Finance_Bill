@@ -1,18 +1,18 @@
-# 📊 GenData Capstone Project Proposal
+# GenData Capstone Project Proposal
 
-## 🎯 Project Title  
+## Project Title  
 **Public Response & Protest Patterns on Kenya’s Finance Bill (2024/2025)**
 
 
 
-## 📝 Project Summary  
+## Project Summary  
 This project analyzes public reactions to Kenya’s 2024/2025 Finance Bill, focusing on protest events, social media sentiment, and economic grievances. Using **Excel, SQL, and Python**, the project will uncover protest hotspots, trending concerns, demographic indicators, and the role of social discourse.
 
 The goal is to inform civil society, journalists, and policymakers by presenting data-driven insights on how fiscal policy impacts citizen behavior and triggers nationwide mobilization.
 
 
 
-## ❓ Problem Statement  
+## Problem Statement  
 
 - What were the major protest locations during the Finance Bill demonstrations?  
 - How did sentiment on social media evolve over time?  
@@ -22,9 +22,9 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## 🔧 Technical Details
+## Technical Details
 
-### 📗 Excel Components
+### Excel Components
 **Concepts:**  
 - Data Cleaning: Handling missing values, inconsistencies, duplicates  
 - Transformation: Date grouping, protest categorization, calculated fields  
@@ -37,7 +37,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-### 🐬 SQL Components
+### SQL Components
 **Tool:** MySQL / SQLite  
 
 **Key Concepts:**  
@@ -48,7 +48,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-### 🐍 Python Components
+### Python Components
 **Libraries:** `pandas`, `matplotlib`, `seaborn` 
 
 **Tasks:**  
@@ -59,7 +59,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 - Word cloud generation  
 
 
-## 📄 Report Writing
+## Report Writing
 
 - Executive Summary with key findings  
 - Methodology (tools, sources, assumptions)  
@@ -69,7 +69,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## 🧱 Program Structure
+## Program Structure
 
 ### 🔹 Core Features
 
@@ -95,7 +95,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## 📅 Project Timeline
+## Project Timeline
 
 | Phase     | Tasks                                                 | Duration  |
 |-----------|-------------------------------------------------------|-----------|
@@ -107,7 +107,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## 🧩 Design Principles
+## Design Principles
 
 - Modular flow: Excel → SQL → Python  
 - Consistent naming for files, tables, and graphs  
@@ -116,7 +116,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## ⚠️ Potential Challenges
+## ⚠Potential Challenges
 
 - Inconsistent or sparse protest data  
 - Sentiment subjectivity or sarcasm in posts  
@@ -125,7 +125,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Live scraping via APIs (Twitter, news)  
 - Sentiment model refinement using machine learning  
@@ -134,7 +134,7 @@ The goal is to inform civil society, journalists, and policymakers by presenting
 
 
 
-## ❓ Key Project Questions
+##  Key Project Questions
 
 1. What counties recorded the most protests?  
 2. Which keywords and hashtags led online discussions?  
